@@ -30,8 +30,5 @@
     "markdownlint-cli": "^0.37.0",
     "node-fetch": "^3.3.2",
     "prettier": "^2.8.8"
-  },
-  "dependencies": {
-    "i": "^0.3.7"
   }
 }

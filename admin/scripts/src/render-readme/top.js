@@ -18,13 +18,13 @@ export const top = ({ env = {}, modules = {}, org = {} }) =>
 >
 >  </details>
 
-- [Class Calendar](${org.calendar})
+${org.calendar ? `- [Class Calendar](${org.calendar})` : ''}
 - [Study Board](https://github.com/${env.user}/${env.repo}/projects/${
     modules.board
-  })
-${
+  })${
   org.forum
-    ? `- [${
+    ? `
+- [${
         org.forum.includes('discord')
           ? 'Discord'
           : org.forum.includes('slack')
@@ -49,7 +49,7 @@ ${
     env.repo
   }/pulls?q=label%3Asnippets)_)
   - [Cheat Sheets](./cheat-sheets)
-  - [Chill Zone](./chill-zone)
+  - [Chill Zone](./chill-zone.md)
 - [Guides](./guides)
   - [Study Tips](./guides/study-tips)
   - [Class Workflows](./guides/class-workflows)

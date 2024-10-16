@@ -1,6 +1,6 @@
 <!-- BEGIN TOP -->
 
-# <your Home Repo Name>: <your Org Name>
+# Pilot: Kiwi
 
 > <details>
 > <summary>Tech Support</summary>
@@ -9,21 +9,19 @@
 >
 >  </details>
 
-- [Class Calendar](./assets/calendar.jpg)
-- [Study Board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1)
-- [Discord](discord, slack, ... whatever link)
+- [Study Board](https://github.com/Kiwi/pilot/projects/1)
 - People
   - [Learners](#learners) -
-    [Randomizer](https://<your-org-name>.github.io/<your-home-repo-name>/randomizer)
+    [Randomizer](https://Kiwi.github.io/pilot/randomizer)
   - [Coaches](#coaches)
   - [Admins](#admins)
 - Class Notes
   - [Vocabulary](./vocabulary)
-    (_[PRs](https://github.com/<your-org-name>/<your-home-repo-name>/pulls?q=label%3Avocabulary)_)
+    (_[PRs](https://github.com/Kiwi/pilot/pulls?q=label%3Avocabulary)_)
   - [Snippets](./snippets)
-    (_[PRs](https://github.com/<your-org-name>/<your-home-repo-name>/pulls?q=label%3Asnippets)_)
+    (_[PRs](https://github.com/Kiwi/pilot/pulls?q=label%3Asnippets)_)
   - [Cheat Sheets](./cheat-sheets)
-  - [Chill Zone](./chill-zone)
+  - [Chill Zone](./chill-zone.md)
 - [Guides](./guides)
   - [Study Tips](./guides/study-tips)
   - [Class Workflows](./guides/class-workflows)
@@ -37,247 +35,119 @@
 
 ## Modules
 
-Learn to plan and build web applications as a team.
+Take your first steps into collaborative programming.
 
-### [0. Precourse](https://github.com/DeNepo/precourse): 1 week
+### [0. Precourse.](https://github.com/DeNepo/precourse): 1 week
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"0.%20Precourse"+label%3Acheck-in)
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"0.%20Precourse."+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"0.%20Precourse"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"0.%20Precourse."+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"0.%20Precourse"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/1)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"0.%20Precourse."+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/1)
 
-Set up your accounts and prepare your development environment.
+Set up your development environment and GitHub account, then find your way
+around this repository so you're ready to roll on day 1.
 
-### [1. Workflows](https://github.com/DeNepo/workflows): 2 weeks
+- **Deliverables**:
+  [listed in the module repository](https://github.com/DeNepo/precourse/tree/main/deliverables)
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"1.%20Workflows"+label%3Acheck-in)
+### [1. Workflows](https://github.com/DeNepo/workflows): 1 week
+
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"1.%20Workflows"+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"1.%20Workflows"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"1.%20Workflows"+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"1.%20Workflows"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/2)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"1.%20Workflows"+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/2)
 
 Learn the workflows you need to develop individually and in a group.
 
-- **Week 1**: Chapters 0, 1, 2
-  - Lesson Plan:
-    [VSCode and Git](https://github.com/DeNepo/workflows/blob/main/lesson-plans/vscode-and-git.md)
-  - Deliverable:
+- **Week 1**: Chapters 0, 1, 2, 3 - _Local/remote workflows for **individual and
+  collaborative development**._
+  - **Individual Deliverable**:
     [Student Bio PR](https://github.com/DeNepo/workflows/blob/main/deliverables/student-bio-pr.md)
-- **Week 2**: Chapter 3
-  - Lesson Plan:
-    [GitHub Project Management](https://github.com/DeNepo/workflows/blob/main/lesson-plans/github-project-management.md)
-  - Deliverable:
+  - **Collaborative Deliverable**:
     [Group Intro Repo](https://github.com/DeNepo/workflows/blob/main/deliverables/group-introduction-repo.md)
 
-### [2. Agile Development](https://github.com/DeNepo/agile-development): 4 weeks
+### [2. Welcome to JS](https://github.com/DeNepo/welcome-to-js): 3 weeks
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"2.%20Agile%20Development"+label%3Acheck-in)
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"2.%20Welcome%20to%20JS"+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"2.%20Agile%20Development"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"2.%20Welcome%20to%20JS"+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"2.%20Agile%20Development"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/3)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"2.%20Welcome%20to%20JS"+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/3)
 
-Practice collaboratively planning and developing HTML/CSS websites.
+Learn to understand, discuss, modify and develop interactive programs.
 
-- **Week 1**: Chapters 0, 1 - Following Plans
-  - Lesson Plan:
-    [Planning and Collaborating](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/planning-and-collaborating.md)
-  - Deliverable:
-    [All About Trees](https://github.com/DeNepo/agile-development/blob/main/deliverables/all-about-trees)
-- **Week 2**: Chapter 2 - Writing Plans
-  - Lesson Plan:
-    [User-Centered Development](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/user-centered-development.md)
-  - Deliverable:
-    [Loruki Rebuild](https://github.com/DeNepo/agile-development/blob/main/deliverables/loruki-rebuild.md)
-- **Week 3**: Chapter 3 - Adapting Plans
-  - Lesson Plan:
-    [Being Agile](https://github.com/DeNepo/agile-development/blob/main/lesson-plans/being-agile.md)
-  - Deliverable: Begin
-    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
-- **Week 4**: Chapter 3 - Adapting Plans
-  - Lesson Plan: Group Project Session
-  - Deliverable: Finish
-    [HYF Redesign](https://github.com/DeNepo/agile-development/blob/main/deliverables/hyf-redesign.md)
+- **Week 1**: Chapters 0's, 1, 2 - _Understand **the big picture** of software
+  development and master **just enough JavaScript** to build your foundations._
+- **Week 2**: Chapter 3 - _Learn different ways to **understand** a program._
+- **Week 3**: Chapter 4 - _Practice different skills involved in **developing**
+  programs._
 
-### [3. UX/UI Design](https://github.com/DeNepo/ux-ui-design): 2 weeks
+### [3. Inside JS](https://github.com/DeNepo/inside-js): 3 weeks
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"3.%20UX%2FUI%20Design"+label%3Acheck-in)
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"3.%20Inside%20JS"+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"3.%20UX%2FUI%20Design"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"3.%20Inside%20JS"+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"3.%20UX%2FUI%20Design"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/4)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"3.%20Inside%20JS"+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/4)
 
-Explore design thinking process and placing your users at the center of your
-development process.
+Take a deep dive into JavaScript; explore some it's trickiest features and how
+to use them.
 
-- **Week 1**: Chapter 1
-  - Lesson Plan:
-    [Design Thinking](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/design-thinking.md)
-  - Deliverable:
-    [Practical Case](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/practical-case.md)
-- **Week 2**: Chapters 2, 3
-  - Lesson Plan:
-    [Gestalt Principles & Figma](https://github.com/DeNepo/ux-ui-design/blob/main/lesson-plans/gestalt-and-figma.md)
-  - Deliverable:
-    [Co-Design your Home Page](https://github.com/DeNepo/ux-ui-design/blob/main/deliverables/co-design-your-home-page)
+- **Week 1**: Chapters 0, 1, 2, 3 - _Use **just enough DOM** to write
+  interactive programs using control flow._
+- **Week 2**: Chapters 4, 5, 6, 7 - _Use functions to **abstract away** your
+  program's implementation._
+- **Week 3**: Chapters 8, 9, 10 - _Use arrays and objects to store **program
+  state** between interactions._
+  - **Collaborative Deliverable**: A stateful web page, your choice!
 
-### [4. Welcome to JS](https://github.com/DeNepo/welcome-to-js): 3 weeks
+### [4. Behavior, Strategy, Implementation](https://github.com/DeNepo/behavior-strategy-implementation): 3 weeks
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"4.%20Welcome%20to%20JS"+label%3Acheck-in)
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"4.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"4.%20Welcome%20to%20JS"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"4.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"4.%20Welcome%20to%20JS"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/5)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"4.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/5)
 
-Learn to read small programs, and to write code that other people can
-understand.
+Explore problem solving in JavaScript, learn to understand, write and review
+solutions to JS coding challenges.
 
-- **Week 1**: Chapters 0, 1, 2
+- **Week 1**: Chapters 1, 2 - _**Describe** and **Remix** other people's
+  solutions to coding challenges._
+- **Week 2**: Chapter 3 - _**Write** multiple solutions to coding challenges at
+  your level._
+- **Week 3**: Chapter 4 - _**Review** your classmate's solutions to coding
+  challenges._
+  - **Collaborative Deliverable**: Solutions and reviews in a group repository.
 
-  - Lesson Plan:
-    [Computers and Developers](https://github.com/DeNepo/welcome-to-js/blob/master/lesson-plans/computers-and-developers)
-  - Study Priorities: _What is Programming?_ and _Just Enough JS_
+### [5. Learning in Public](): 2 weeks
 
-- **Week 2**: Chapters 2, 3
-
-  - Lesson Plan:
-    [DevTools Debugger](https://github.com/DeNepo/welcome-to-js/blob/master/lesson-plans/devtools-debugger)
-  - Study Priorities: _Just Enough JS_ and _Understanding Programs_
-
-- **Week 3**: Chapter 4
-  - Lesson Plan:
-    [Writing and Reviewing](https://github.com/DeNepo/welcome-to-js/blob/master/lesson-plans/writing-and-reviewing)
-  - Study Priorities: _Developing Programs_
-
-### [5. Inside JS](https://github.com/DeNepo/inside-js): 4 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"5.%20Inside%20JS"+label%3Acheck-in)
+> [check-ins](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"5.%20Learning%20in%20Public"+label%3Acheck-in)
 > |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"5.%20Inside%20JS"+label%3Adeliverable)
+> [deliverables board](https://github.com/Kiwi/pilot/projects/1?card_filter_query=milestone%3A"5.%20Learning%20in%20Public"+label%3Adeliverable)
 > |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"5.%20Inside%20JS"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/6)
+> [retros](https://github.com/Kiwi/pilot/issues/?q=milestone%3A"5.%20Learning%20in%20Public"+label%3Aretro+label%3Acheck-in)
+> || [milestone](https://github.com/Kiwi/pilot/milestone/6)
 
-Take a deep dive into JavaScript and explore some it's trickiest features. Build
-your foundations now so later you can focus on the fun stuff.
+In groups of 2-3 you will research and write a tutorial about any topic that
+builds on what you've learned so far.
 
-### [6. Behavior, Strategy, Implementation](https://github.com/DeNepo/behavior-strategy-implementation): 3 weeks
+- **Week 1**: Research - _Select your topic and study it._
 
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"6.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"6.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"6.%20Behavior%2C%20Strategy%2C%20Implementation"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/7)
+  - **Collaborative Deliverable**: A repository with your shared notes, study
+    resources and any practice exercises/projects you studied.
 
-Explore problem solving in JavaScript, learn how to write and review solutions
-to JS coding challenges.
-
-- **Week 1**: Chapter 1
-  - Lesson Plan:
-    [Solution Write-Ups](https://github.com/DeNepo/behavior-strategy-implementation/blob/master/lesson-plans/solution-write-ups.md)
-  - Study Priorities: Try to write up at least 3 solutions during the week.
-- **Week 2**: Chapters 2
-  - Lesson Plan:
-    [Function Design](https://github.com/DeNepo/behavior-strategy-implementation/blob/master/lesson-plans/function-design.md)
-  - Study Priorities: Try to solve 2-4 exercises from each section of the
-    chapter
-- **Week 3**: Chapter 3
-  - Lesson Plan:
-    [Code Review](https://github.com/DeNepo/behavior-strategy-implementation/blob/master/lesson-plans/code-review.md)
-  - Deliverable:
-    [Practice Code Review](https://github.com/DeNepo/behavior-strategy-implementation/blob/master/deliverables/practice-code-review.md)
-
-### [7. Separation of Concerns](https://github.com/DeNepo/separation-of-concerns): 3 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"7.%20Separation%20of%20Concerns"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"7.%20Separation%20of%20Concerns"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"7.%20Separation%20of%20Concerns"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/8)
-
-Learn how to break down interactive web pages into clear tasks that can be
-shared divided across team.
-
-### [8. Asynchronous Programming](https://github.com/DeNepo/asynchronous-programming): 3 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"8.%20Asynchronous%20Programming"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"8.%20Asynchronous%20Programming"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"8.%20Asynchronous%20Programming"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/9)
-
-Learn how the JavaScript event loop works and how you can use API data in your
-websites.
-
-### [9. Headless CMS](https://github.com/DeNepo/headless-cms): 3 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"9.%20Headless%20CMS"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"9.%20Headless%20CMS"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"9.%20Headless%20CMS"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/10)
-
-Learn what a Content Management System is and explore how you use one to model
-the data for your own web applications.
-
-### [10. Component Based Design](https://github.com/DeNepo/component-based-design): 3 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"10.%20Component%20Based%20Design"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"10.%20Component%20Based%20Design"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"10.%20Component%20Based%20Design"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/11)
-
-Practice developing Single Page Apps built from reusable UI components, and
-explore your first Frontend Framework.
-
-### [11. Individual Project](https://github.com/DeNepo/individual-project): 2 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"11.%20Individual%20Project"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"11.%20Individual%20Project"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"11.%20Individual%20Project"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/12)
-
-Prepare for the final project by individually designing, planning, building and
-deploying your own fullstack web app.
-
-### [12. Final Project](https://github.com/DeNepo/final-project): 6 weeks
-
-> [check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"12.%20Final%20Project"+label%3Acheck-in)
-> |
-> [deliverables board](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=milestone%3A"12.%20Final%20Project"+label%3Adeliverable)
-> |
-> [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=milestone%3A"12.%20Final%20Project"+label%3Aretro+label%3Acheck-in)
-> ||
-> [milestone](https://github.com/<your-org-name>/<your-home-repo-name>/milestone/13)
-
-Put it all together! Work in teams to identify your target users and a
-real-world problem they face, then deliver a web app to meet their needs.
+- **Week 2**: Share - _Create a tutorial to share what you learned._
+  - **Collaborative Deliverable**: A tutorial with additional study resources,
+    in a format that works well for your topic. This could be a video, a blog
+    post, a repository of exercises, ... follow your inspiration!
 
 ---
 
@@ -287,16 +157,16 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Learners
 
-| <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> | <h3 id="github-name"><human-name></h3><br>[github-name](https://github.com/github-name) \| [home page](https://github-name.github.io) \| [bio](./student-bios/github-name.md)<br>[check-ins](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3Agithub-name+label%3Acheck-in) \| [deliverables](https://github.com/<your-org-name>/<your-home-repo-name>/projects/1?card_filter_query=assignee%3Agithub-name+label%3Adeliverable) \| [retros](https://github.com/<your-org-name>/<your-home-repo-name>/issues/?q=assignee%3Agithub-name+label%3Aretro+label%3Acheck-in)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name) |
-| ---------------------------------------------------------------------------------------------------------- | --------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./admin/assets/avatars/octocat.png" height="200px" width="200px" alt="octocat avatar" /> | <h3 id="octocat">Octocat</h3><br>[octocat](https://github.com/octocat) \| [home page](https://octocat.github.io) \| [bio](./student-bios/octocat.md)<br>[help wanted](https://github.com/Kiwi/pilot/discussions/categories/help-wanted?discussions_q=author%3Aoctocat+category%3Ahelp-wanted+is:unanswered) \| [questions](https://github.com/Kiwi/pilot/discussions/categories/question?discussions_q=author%3Aoctocat+category%3AQ%26A+is:unanswered) \| [all discussions](https://github.com/Kiwi/pilot/discussions/categories/question?discussions_q=includes%3Aoctocat)<br>[check-ins](https://github.com/Kiwi/pilot/issues/?q=assignee%3Aoctocat+label%3Acheck-in) \| [deliverables](https://github.com/Kiwi/pilot/projects/1?card_filter_query=assignee%3Aoctocat+label%3Adeliverable) \| [retros](https://github.com/Kiwi/pilot/issues/?q=assignee%3Aoctocat+label%3Aretro+label%3Acheck-in)<br>[opened](https://github.com/Kiwi/pilot/issues?q=author%3Aoctocat) \| [assigned](https://github.com/Kiwi/pilot/issues?q=assignee%3Aoctocat) \| [commented](https://github.com/Kiwi/pilot/issues?q=commenter%3Aoctocat) \| [mentioned](https://github.com/Kiwi/pilot/issues?q=mentions%3Aoctocat) |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 <details>
-<summary><human-name>'s github stats</summary>
+<summary>Octocat's github stats</summary>
 <br>
 
-![github-name github activity](https://ghchart.rshah.org/github-name)
+![octocat github activity](https://ghchart.rshah.org/octocat)
 
-![github-name github stats](https://github-readme-stats.vercel.app/api?username=github-name&show_icons=true&theme=default&hide_title=true&hide_rank=true)
+![octocat github stats](https://github-readme-stats.vercel.app/api?username=octocat&show_icons=true&theme=default&hide_title=true&hide_rank=true)
 
 </details>
 <hr style="width:60%;align:center">
@@ -309,7 +179,13 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Coaches
 
-<table><tr><th> <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> </th><th> <h3 id="github-name"><human-name></h3><br><a href="https://github.com/github-name">github-name</a><br><a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name">opened</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name">assigned</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name">commented</a> | <a href="https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name">mentioned</a><br> </th></tr></table>
+<table><tr><th> <img src="./admin/assets/avatars/nurabunamus.png" height="200px" width="200px" alt="nurabunamus avatar" /> </th><th> <h3 id="nurabunamus">Nur</h3><br><a href="https://github.com/nurabunamus">nurabunamus</a> | <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3Anurabunamus">discussions</a><br><a href="https://github.com/Kiwi/pilot/issues?q=author%3Anurabunamus">opened</a> | <a href="https://github.com/Kiwi/pilot/issues?q=assignee%3Anurabunamus">assigned</a> | <a href="https://github.com/Kiwi/pilot/issues?q=commenter%3Anurabunamus">commented</a> | <a href="https://github.com/Kiwi/pilot/issues?q=mentions%3Anurabunamus">mentioned</a><br> </th></tr></table>
+
+<table><tr><th> <img src="./admin/assets/avatars/yoshimalaise.png" height="200px" width="200px" alt="yoshimalaise avatar" /> </th><th> <h3 id="yoshimalaise">Yoshi</h3><br><a href="https://github.com/yoshimalaise">yoshimalaise</a> | <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3Ayoshimalaise">discussions</a><br><a href="https://github.com/Kiwi/pilot/issues?q=author%3Ayoshimalaise">opened</a> | <a href="https://github.com/Kiwi/pilot/issues?q=assignee%3Ayoshimalaise">assigned</a> | <a href="https://github.com/Kiwi/pilot/issues?q=commenter%3Ayoshimalaise">commented</a> | <a href="https://github.com/Kiwi/pilot/issues?q=mentions%3Ayoshimalaise">mentioned</a><br> </th></tr></table>
+
+<table><tr><th> <img src="./admin/assets/avatars/unmeshvrije.png" height="200px" width="200px" alt="unmeshvrije avatar" /> </th><th> <h3 id="unmeshvrije">Unmesh</h3><br><a href="https://github.com/unmeshvrije">unmeshvrije</a> | <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3Aunmeshvrije">discussions</a><br><a href="https://github.com/Kiwi/pilot/issues?q=author%3Aunmeshvrije">opened</a> | <a href="https://github.com/Kiwi/pilot/issues?q=assignee%3Aunmeshvrije">assigned</a> | <a href="https://github.com/Kiwi/pilot/issues?q=commenter%3Aunmeshvrije">commented</a> | <a href="https://github.com/Kiwi/pilot/issues?q=mentions%3Aunmeshvrije">mentioned</a><br> </th></tr></table>
+
+<table><tr><th> <img src="./admin/assets/avatars/colevandersWands.png" height="200px" width="200px" alt="colevandersWands avatar" /> </th><th> <h3 id="colevandersWands">Evan</h3><br><a href="https://github.com/colevandersWands">colevandersWands</a> | <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3AcolevandersWands">discussions</a><br><a href="https://github.com/Kiwi/pilot/issues?q=author%3AcolevandersWands">opened</a> | <a href="https://github.com/Kiwi/pilot/issues?q=assignee%3AcolevandersWands">assigned</a> | <a href="https://github.com/Kiwi/pilot/issues?q=commenter%3AcolevandersWands">commented</a> | <a href="https://github.com/Kiwi/pilot/issues?q=mentions%3AcolevandersWands">mentioned</a><br> </th></tr></table>
 
 ---
 
@@ -319,8 +195,14 @@ real-world problem they face, then deliver a web app to meet their needs.
 
 ## Admins
 
-| <img src="./admin/assets/avatars/github-name.png" height="200px" width="200px" alt="github-name avatar" /> | <h3 id="github-name"><human-name></h3> <br>[github-name](https://github.com/github-name)<br>[opened](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=author%3Agithub-name) \| [assigned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=assignee%3Agithub-name) \| [commented](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=commenter%3Agithub-name) \| [mentioned](https://github.com/<your-org-name>/<your-home-repo-name>/issues?q=mentions%3Agithub-name) |
-| ---------------------------------------------------------------------------------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| <img src="./admin/assets/avatars/ahmed-azzam.png" height="200px" width="200px" alt="ahmed-azzam avatar" /> | <h3 id="ahmed-azzam">Ahmed</h3><br/>Operational Director<br/> <br>[ahmed-azzam](https://github.com/ahmed-azzam) \| <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3Aahmed-azzam">discussions</a><br>[opened](https://github.com/Kiwi/pilot/issues?q=author%3Aahmed-azzam) \| [assigned](https://github.com/Kiwi/pilot/issues?q=assignee%3Aahmed-azzam) \| [commented](https://github.com/Kiwi/pilot/issues?q=commenter%3Aahmed-azzam) \| [mentioned](https://github.com/Kiwi/pilot/issues?q=mentions%3Aahmed-azzam) |
+| ---------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+
+| <img src="./admin/assets/avatars/octocat.png" height="200px" width="200px" alt="octocat avatar" /> | <h3 id="octocat">Octocat</h3><br/>South Gaza Coordinator<br/> <br>[octocat](https://github.com/octocat) \| <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3Aoctocat">discussions</a><br>[opened](https://github.com/Kiwi/pilot/issues?q=author%3Aoctocat) \| [assigned](https://github.com/Kiwi/pilot/issues?q=assignee%3Aoctocat) \| [commented](https://github.com/Kiwi/pilot/issues?q=commenter%3Aoctocat) \| [mentioned](https://github.com/Kiwi/pilot/issues?q=mentions%3Aoctocat) |
+| -------------------------------------------------------------------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
+
+| <img src="./admin/assets/avatars/colevandersWands.png" height="200px" width="200px" alt="colevandersWands avatar" /> | <h3 id="colevandersWands">Evan</h3><br/>PIlot Coordinator<br/> <br>[colevandersWands](https://github.com/colevandersWands) \| <a href="https://github.com/Kiwi/pilot/discussions?discussions_q=involves%3AcolevandersWands">discussions</a><br>[opened](https://github.com/Kiwi/pilot/issues?q=author%3AcolevandersWands) \| [assigned](https://github.com/Kiwi/pilot/issues?q=assignee%3AcolevandersWands) \| [commented](https://github.com/Kiwi/pilot/issues?q=commenter%3AcolevandersWands) \| [mentioned](https://github.com/Kiwi/pilot/issues?q=mentions%3AcolevandersWands) |
+| -------------------------------------------------------------------------------------------------------------------- | ---------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 
 ---
 

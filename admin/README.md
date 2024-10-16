@@ -89,8 +89,8 @@ some configuration:
 
 You will need to manually update the .yml files in the `./admin` folder. Each
 time you update the data you will need to re-render the README. If you are using
-the standard DeNepo Curriculum, you will only need to update 3 of the .yml
-files :
+the standard DeNepo Curriculum, you will only need to update 3 of the .yml files
+:
 
 - `index.json`: a small file, it's the main configuration point for all links
   that will be generated in the README file.
@@ -141,7 +141,8 @@ class starts as you add/remove coaches & students.
 ### Labels
 
 DeNepo workflows and the links rendered in this repo's README rely on certain
-labels being present. You can create them all at once using whatever colors you like.
+labels being present. You can create them all at once using whatever colors you
+like.
 
 - `check-in`
   - used by students to label module check-in issues
@@ -149,26 +150,34 @@ labels being present. You can create them all at once using whatever colors you 
   - for roll-call issues created before each class
 - `chapter-1`, `chapter-2`, ... up to the longest module in your curriculum
   - used to label `roll-call` & `deliverable` issues
-  - and by students to indicate when they've updated their `check-in` issue each chapter of a module.
+  - and by students to indicate when they've updated their `check-in` issue each
+    chapter of a module.
 - `checked-1`, `checked-2`, ... up to the longest module in your curriculum.
   - used by coaches to indicated a check-in has been checked.
 - `deliverable`, `individual`, `group`
-  - used to label all deliverables issues, which will be placed on the main deliverables board.
+  - used to label all deliverables issues, which will be placed on the main
+    deliverables board.
 - `vocabulary`, `snippets`, `chill-zone`
   - for issues & PRs to a folder in this repo
 
-Students will also use the `question` and `help-wanted` labels, but those come standard in GitHub repos.
+Students will also use the `question` and `help-wanted` labels, but those come
+standard in GitHub repos.
 
 ### Milestones
 
-Add one milestone for each module in your curriculum. Careful! the milestone's name must _exactly_ match the module's name from the `modules.yml` file in `./admin` folder.
+Add one milestone for each module in your curriculum. Careful! the milestone's
+name must _exactly_ match the module's name from the `modules.yml` file in
+`./admin` folder.
 
-If you want you can add due dates for when each module ends. This can help to keep track of overall progress through the course.
+If you want you can add due dates for when each module ends. This can help to
+keep track of overall progress through the course.
 
 ### Project Boards
 
-You will want to create a few projects boards (described in **[1. Setup Repository](#1-setup-repository)**). After creating the project boards you will need to update the
-"project" property of `index.json` so the module links will filter for the correct project board.
+You will want to create a few projects boards (described in
+**[1. Setup Repository](#1-setup-repository)**). After creating the project
+boards you will need to update the "project" property of `index.json` so the
+module links will filter for the correct project board.
 
 #### Deliverables
 
@@ -198,9 +207,11 @@ columns in this project:
 
 ## Class Data
 
-All the data for your class is managed with these 4 .yml files. it's not a
-fancy system but it's simple to host, easy enough to maintain, and makes it easy
-to use the class repo offline. You could imagine building a CMS over this (even a simple one who's code lives in the `/admin` directory) but that's for another day.
+All the data for your class is managed with these 4 .yml files. it's not a fancy
+system but it's simple to host, easy enough to maintain, and makes it easy to
+use the class repo offline. You could imagine building a CMS over this (even a
+simple one who's code lives in the `/admin` directory) but that's for another
+day.
 
 ### index.json
 
@@ -236,8 +247,8 @@ different project boards. That's covered in [modules.json](#modulesjson)
 
 ### learners.yml
 
-A thumbnail intro to each student will be rendered into the README.
-This thumbnail will include:
+A thumbnail intro to each student will be rendered into the README. This
+thumbnail will include:
 
 - the student's github avatar - unless an "imgURL" exists
 - their name, rendered as a link to their student bio
@@ -252,8 +263,8 @@ This thumbnail will include:
 
 ### coaches.yml
 
-Basically the same as student. A thumbnail intro to each coach will be rendered into the README.
-This thumbnail will include:
+Basically the same as student. A thumbnail intro to each coach will be rendered
+into the README. This thumbnail will include:
 
 - the coach's github avatar
 - their name (not a link)
@@ -270,9 +281,10 @@ This thumbnail will include:
 
 ### modules.yml
 
-This file contains the module's details used to render each module's links in the README.
-Module objects have the most configuration options of all the data types in the class repo to give you the flexibility in how you structure your curriculum, host your content, and structure the assignments for each
-module.
+This file contains the module's details used to render each module's links in
+the README. Module objects have the most configuration options of all the data
+types in the class repo to give you the flexibility in how you structure your
+curriculum, host your content, and structure the assignments for each module.
 
 With the basic configurations only (the non-optional properties), the README
 will contain these links for each module:
@@ -336,7 +348,8 @@ to:
 2. update your class's .yml data files
 3. `npm run build`
 
-Later you will only need to use these scripts when you update the class data files:
+Later you will only need to use these scripts when you update the class data
+files:
 
 - _without fetching avatars_: `npm run render`, re-render the README using the
   same avatars
@@ -345,8 +358,8 @@ Later you will only need to use these scripts when you update the class data fil
 
 ### `npm run reset`
 
-> Caution! this script will clear out your `coaches.yml` and `learners.yml`
-> data files!
+> Caution! this script will clear out your `coaches.yml` and `learners.yml` data
+> files!
 
 Run this script if you've just created your repo and are starting a new class.
 It will clear out and reset all the files/folders you need to give your class a

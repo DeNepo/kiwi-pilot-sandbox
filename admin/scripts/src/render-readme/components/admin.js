@@ -1,6 +1,6 @@
 export const admin = (
   { env = {}, org = {} },
-  { name = '', user = '', homePage = '' },
+  { name = '', user = '', homePage = '', role = '' },
 ) => {
   const repoURL = `https://github.com/${env.user}/${env.repo}`;
 
@@ -10,7 +10,10 @@ export const admin = (
 
   // --- build the section ---
 
-  const header = `<h3 id="${user || name}">${name}</h3>`;
+  let header = `<h3 id="${user || name}">${name}</h3>`;
+  if (role) {
+    header += `<br/>${role}<br/>`;
+  }
 
   const avatar = `<img src="./${env.assetsPath.join(
     '/',

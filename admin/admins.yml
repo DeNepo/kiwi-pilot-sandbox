@@ -1,2 +1,9 @@
-- name: <human-name>
-  user: github-name
+- name: Ahmed
+  role: Operational Director
+  user: ahmed-azzam
+- name: Octocat
+  role: South Gaza Coordinator
+  user: octocat
+- name: Evan
+  role: PIlot Coordinator
+  user: colevandersWands
