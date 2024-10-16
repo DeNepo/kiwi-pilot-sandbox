@@ -6,8 +6,11 @@ export const learner = (
 
   // --- scoped utilities for generating links ---
 
+  // https://github.com/orgs/DeNepo/projects/2
   const projectSearch = (label = '', linkText = label, role = 'assignee') =>
-    `[${linkText}](${repoURL}/projects/${modules.board}?card_filter_query=${role}%3A${user}+label%3A${label})`;
+    `[${linkText}](https://github.com/orgs/${env.user}/projects/${modules.board}/views/1?filterQuery=${role}%3A${user}+label%3A${label})`;
+  // const projectSearch = (label = '', linkText = label, role = 'assignee') =>
+  //   `[${linkText}](${repoURL}/projects/${modules.board}?card_filter_query=${role}%3A${user}+label%3A${label})`;
 
   const issuesSearch = (label = [], linkText = label, role = 'assignee') =>
     `[${linkText}](${repoURL}/issues/?q=${role}%3A${user}+${

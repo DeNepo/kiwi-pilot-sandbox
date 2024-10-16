@@ -14,8 +14,12 @@ export const module = (
 
   const urlSafeName = `"${encodeURIComponent(name)}"`;
 
+  // https://github.com/orgs/DeNepo/projects/2
   const projectSearch = (label = '', linkText = label) =>
-    `[${linkText}](https://github.com/${env.user}/${env.repo}/projects/${modules.board}?card_filter_query=milestone%3A${urlSafeName}+label%3A${label})`;
+    `[${linkText}](https://github.com/orgs/${env.user}/projects/${modules.board}/views/1?filterQuery=milestone%3A${urlSafeName}+label%3A${label})`;
+  // project boards are now hosted at the org level
+  // const projectSearch = (label = '', linkText = label) =>
+  //   `[${linkText}](https://github.com/${env.user}/${env.repo}/projects/${modules.board}?card_filter_query=milestone%3A${urlSafeName}+label%3A${label})`;
 
   const labelize = (name = '') => `label%3A${name}`;
 
