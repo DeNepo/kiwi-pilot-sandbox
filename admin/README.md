@@ -1,5 +1,7 @@
 # Class Admin
 
+> Stale docs alert.
+
 A DeNepo class repository is used to for students and coaches to share feedback
 and keep a record of each student's progress. Your class repository will serve 3
 main roles:

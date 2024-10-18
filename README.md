@@ -81,11 +81,13 @@ Learn the workflows you need to develop individually and in a group.
 
 Learn to understand, discuss, modify and develop interactive programs.
 
-- **Week 1**: Chapters 0's, 1, 2 - _Understand **the big picture** of software
+- **Week 1**: Chapters 0s, 1, 2 - _Understand **the big picture** of software
   development and master **just enough JavaScript** to build your foundations._
 - **Week 2**: Chapter 3 - _Learn different ways to **understand** a program._
 - **Week 3**: Chapter 4 - _Practice different skills involved in **developing**
   programs._
+  - **Collaborative Deliverable**: Plan and develop a web page using _Just
+    Enough JavaScript_ and the _DOM I/O_ library.
 
 ### [3. Inside JS](https://github.com/DeNepo/inside-js): 3 weeks
 
@@ -99,13 +101,14 @@ Learn to understand, discuss, modify and develop interactive programs.
 Take a deep dive into JavaScript; explore some it's trickiest features and how
 to use them.
 
-- **Week 1**: Chapters 0, 1, 2, 3 - _Use **just enough DOM** to write
+- **Week 1**: Chapters 0s, 1, 2, 3 - _Use **just enough DOM** to write
   interactive programs using control flow._
 - **Week 2**: Chapters 4, 5, 6, 7 - _Use functions to **abstract away** your
   program's implementation._
 - **Week 3**: Chapters 8, 9, 10 - _Use arrays and objects to store **program
   state** between interactions._
-  - **Collaborative Deliverable**: A stateful web page, your choice!
+  - **Collaborative Deliverable**: Plan and develop a stateful web page using
+    _Just Enough DOM_.
 
 ### [4. Behavior, Strategy, Implementation](https://github.com/DeNepo/behavior-strategy-implementation): 3 weeks
 
@@ -119,11 +122,11 @@ to use them.
 Explore problem solving in JavaScript, learn to understand, write and review
 solutions to JS coding challenges.
 
-- **Week 1**: Chapters 1, 2 - _**Describe** and **Remix** other people's
+- **Week 1**: Chapters 0s, 1 - _**Analyze** and **Remix** other people's
   solutions to coding challenges._
-- **Week 2**: Chapter 3 - _**Write** multiple solutions to coding challenges at
-  your level._
-- **Week 3**: Chapter 4 - _**Review** your classmate's solutions to coding
+- **Week 2**: Chapter 2 - _**Write** solutions to coding challenges at your
+  level._
+- **Week 3**: Chapter 3 - _**Review** your classmate's solutions to coding
   challenges._
   - **Collaborative Deliverable**: Solutions and reviews in a group repository.
 
@@ -140,10 +143,8 @@ In groups of 2-3 you will research and write a tutorial about any topic that
 builds on what you've learned so far.
 
 - **Week 1**: Research - _Select your topic and study it._
-
   - **Collaborative Deliverable**: A repository with your shared notes, study
     resources and any practice exercises/projects you studied.
-
 - **Week 2**: Share - _Create a tutorial to share what you learned._
   - **Collaborative Deliverable**: A tutorial with additional study resources,
     in a format that works well for your topic. This could be a video, a blog
